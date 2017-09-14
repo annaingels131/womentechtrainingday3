@@ -6,6 +6,10 @@
 position: fixed;
 top: 0;
 width: 100%;
+z-index: 9;
+background-color: rgba(255, 255, 255, 0.5);
+padding: 40px;
+margin-left: -1.5%;
 }
 
 .egg {
@@ -26,7 +30,7 @@ width: 100%;
 }
 
 .nav a {
-  color: #fff;
+  color: #000;
 }
 
   /*============JUMBOTRON====================*/
@@ -129,8 +133,34 @@ width: 100%;
   background-size: cover;
 }
 
+
+/*===========OVERLAYS------------------*/
+.overlay {
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 90%;
+  width: 100%;
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+
+/*-------------_FOOTER--------------------*/
+
 footer {
   background-color: #fdc164;
   height: 200px;
   width: 100%;
 }
+
+footer h4 {
+  margin: 0;
+}
+
+
+
+/*-----------MEDIAQUERIES-----------*/
