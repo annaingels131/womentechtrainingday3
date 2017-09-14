@@ -1,0 +1,136 @@
+/*============UNIVERSALS====================*/
+
+
+  /*===========NAV====================*/
+.navi {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.egg {
+  position: fixed;
+  top: 0;
+  left: -70px;
+  z-index: 10;
+}
+
+.breakfast {
+  position: fixed;
+  top: 15%;
+  z-index: 10;
+}
+
+.nav-pills {
+  margin: 10px;
+}
+
+.nav a {
+  color: #fff;
+}
+
+  /*============JUMBOTRON====================*/
+
+.jumbotron {
+  position: relative;
+  background-image: url(../img/breakfast.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.welcome h1 {
+  color: #fff;
+  text-shadow: 3px 3px 8px #000;
+  margin: 20px;
+}
+
+.welcome a {
+  background-color: #fff;
+  border-style: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.welcome a:hover {
+  text-decoration: none;
+  box-shadow: 8px 8px 28px #000;
+}
+
+
+/*============MENU====================*/
+.menuitem {
+  height: 300px;
+}
+
+.menu h1 {
+  text-align: center;
+}
+
+#pancake {
+  background-image: url(../img/pancake.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#waffle {
+  background-image: url(../img/waffle.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#smoothiebowl {
+  background-image: url(../img/smoothiebowl.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#eggtoast {
+  background-image: url(../img/eggtoast.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#oats {
+  background-image: url(../img/oats.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#pastry {
+  background-image: url(../img/pastry.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#coffee {
+  background-image: url(../img/coffee.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#tea {
+  background-image: url(../img/tea.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#juice {
+  background-image: url(../img/juice.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: #fdc164;
+  height: 200px;
+  width: 100%;
+}
