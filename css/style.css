@@ -1,5 +1,15 @@
 /*============UNIVERSALS====================*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Abril Fatface', cursive;
+
+}
 
   /*===========NAV====================*/
 .navi {
@@ -31,6 +41,8 @@ margin-left: -1.5%;
 
 .nav a {
   color: #000;
+  font-family: 'Abril Fatface', cursive;
+
 }
 
   /*============JUMBOTRON====================*/
@@ -77,6 +89,7 @@ margin-left: -1.5%;
 
 .menu h1 {
   text-align: center;
+  border-bottom: 1px solid #000;
 }
 
 #pancake {
@@ -141,19 +154,25 @@ margin-left: -1.5%;
   background-color: rgba(255, 255, 255, 0.5);
   height: 90%;
   width: 100%;
-  opacity: 0;
+  visibility: hidden;
 }
 
 .overlay:hover {
-  opacity: 1;
+  visibility: visible;
 }
 
 
 /*-------------_FOOTER--------------------*/
 
+.eggfoot {
+  position: absolute;
+  left: 45%;
+  margin-top: -47px;
+}
+
 footer {
   background-color: #fdc164;
-  height: 200px;
+  height: 300px;
   width: 100%;
 }
 
@@ -161,6 +180,16 @@ footer h4 {
   margin: 0;
 }
 
+.address, .contact {
+  margin-top: 20px;
+}
+
 
 
 /*-----------MEDIAQUERIES-----------*/
+@media only screen and (max-width: 600px){
+   .pan, .egglogo {
+     height:
+   }
+
+}
