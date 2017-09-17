@@ -17,11 +17,29 @@
             <img src="img/egglogo.png" alt="" class="img-responsive egglogo">
           </div>
         </div>
-        <ul class="nav nav-pills pull-right">
-          <li role="presentation"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#menu">Menu</a></li>
-          <li role="presentation"><a href="#contact">Visit Us!</a></li>
-        </ul>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav nav-pills pull-right navbar-collapse">
+                <li role="presentation"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#menu">Menu</a></li>
+                <li role="presentation"><a href="#contact">Visit Us!</a></li>
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
+
       </div>
       <div class="breakfast" id="breakfast">
         <img src="img/pan.png" alt="" class="img-responsive pan">
@@ -97,18 +115,19 @@
     </div>
   </div>
   <footer>
-    <a href="#"><img src="img/egg.png" alt="egg" class="img-responsive eggfoot"></a>
-
-    <div class="col-xs-6 address pull-left">
+    <a href="#"><img src="img/egg.png" alt="egg" class="img-responsive eggfoot">
+      <h3 class="top">top</h3></a>
+    <div class="col-sm-6 address">
       <h1>Find us here: </h1>
       <h4>1234 Breakfast Street</h4>
       <h4>Fresno, Ca 93721</h4>
     </div>
-    <div class="col-xs-6 contact pull-right" id="contact">
+    <div class="col-sm-6 contact" id="contact">
       <h1>Contact Us:  </h1>
       <h4>breakfastplace@gmail.com</h4>
       <h4>(559)123-4567</h4>
     </div>
+
 
   </footer>
 

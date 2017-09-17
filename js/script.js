@@ -3,3 +3,13 @@ $(window).scroll(function() {
     "margin-top": ($(window).scrollTop()) + "px",
   });
 });
+
+
+function myFunction() {
+    var x = document.getElementById("navItems");
+    if (x.className === "navitems") {
+        x.className += " responsive";
+    } else {
+        x.className = "navitems";
+    }
+}

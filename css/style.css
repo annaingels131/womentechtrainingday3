@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5{
 
 }
 
+
+a:hover {
+  color: #eee;
+}
+
   /*===========NAV====================*/
 .navi {
 position: fixed;
@@ -39,10 +44,18 @@ margin-left: -1.5%;
   margin: 10px;
 }
 
+.carousel-inner img {
+  height: 20%;
+}
+
 .nav a {
   color: #000;
   font-family: 'Abril Fatface', cursive;
+}
 
+.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0)
 }
 
   /*============JUMBOTRON====================*/
@@ -154,11 +167,11 @@ margin-left: -1.5%;
   background-color: rgba(255, 255, 255, 0.5);
   height: 90%;
   width: 100%;
-  visibility: hidden;
+  opacity: 0;
 }
 
 .overlay:hover {
-  visibility: visible;
+  opacity: 1;
 }
 
 
@@ -170,14 +183,21 @@ margin-left: -1.5%;
   margin-top: -47px;
 }
 
+.top {
+  position: absolute;
+  left: 48%;
+  margin-top: -28px;
+}
+
 footer {
   background-color: #fdc164;
   height: 300px;
   width: 100%;
 }
 
-footer h4 {
+footer h4, footer h3 {
   margin: 0;
+  color: #000;
 }
 
 .address, .contact {
@@ -187,9 +207,39 @@ footer h4 {
 
 
 /*-----------MEDIAQUERIES-----------*/
-@media only screen and (max-width: 600px){
-   .pan, .egglogo {
-     height:
-   }
+@media only screen and (max-width: 650px){
+
+  .navitems {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .welcome {
+    margin-top: 40%;
+  }
+
+  .address h1{
+    padding-top: 40px;
+  }
+
+  .top {
+    position: absolute;
+    left: 53%;
+    margin-top: -28px;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 10%;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+       border-color: none;
+     }
+
+  .navbar-toggle{
+    margin: 0;
+  }
 
 }
